@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .city-form input {
+    border: 1px solid rgb(219, 82, 77);;
+    border-radius: 4px;
+
+    width: 100%;
+
+    font-size: 1rem;
+    padding: 0.4rem;
+
+    margin: 1rem 0;
+  }
+  
+  .city-form button {
+    width: 100%;
+    padding: 0.5rem 0;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    background-color: rgb(219, 82, 77);;
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+  }
+
+  .city-form button:hover {
+    background-color: rgb(195, 82, 77);;
+  }
+  
+  .weather-card {
+    border-radius: 4px;
+    border: 1px solid rgb(219, 82, 77);;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    
+  }
+
+  .weather-card p {
+      text-transform: capitalize;
+      letter-spacing: 0.2px;
+      font-size: 22x;
+      line-height: 34px;
+
+      margin-bottom: 0.5rem;
+  }
+  

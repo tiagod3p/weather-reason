@@ -26,7 +26,7 @@ let make = () => {
     None;
   });
 
-  <div>
+  <div className="container">
     {switch (weather) {
      | Some(data) => <Weather data />
      | None => <h1> {s("Loading...")} </h1>
