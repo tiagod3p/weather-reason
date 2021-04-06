@@ -11,3 +11,6 @@ let make = (~data: Api.weatherData) => {
     <p> {s(Js.Float.toString(data.temp))} </p>
   </div>;
 };
+
+
+

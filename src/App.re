@@ -7,7 +7,7 @@ let make = () => {
 
   React.useEffect0(() => {
     Js.Promise.(
-      getWeather(City("London"))
+      getWeather(City("sao paulo"))
       |> then_(data => setWeather(_ => Some(data)) |> resolve)
       |> catch(e => {
            Js.log(e);
@@ -20,11 +20,13 @@ let make = () => {
 
   <div>
     {switch (weather) {
-     | Some(data) => <h1> {s(data.description)} </h1>
+     | Some(data) => <Weather data />
      | None => <h1> {s("Loading...")} </h1>
      }}
   </div>;
 };
+
+
 
 
 
